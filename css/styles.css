@@ -1,0 +1,28 @@
+body{
+background-color: white;
+
+}
+h1{
+font-size: 52px;
+}
+h2{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: blueviolet;
+    
+}
+.flex-container :nth-child(1) {order: 5;
+background-color: aquamarine;
+}
+.flex-container :nth-child(2) {order: 3;
+background-color: aquamarine;}
+.flex-container :nth-child(3){ order: 1;
+background-color: aquamarine;}
+.flex-container :nth-child(4) {order: 2; background-color: aquamarine;}
+.flex-container :nth-child(5) {order: 4; background-color: aquamarine;}
